@@ -12,7 +12,7 @@
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
 <div class="container">
 <a href="#" class="navbar-brand">Frontend Bootcamp</a>
 
@@ -141,15 +141,128 @@
     <div class="container">
         <div class="row align-items-center justify-content-between">
             <div class="col-md">
-                <img src="img/fundamentals.jpeg" class="img-fluid" alt="">
+                <img src="img/screens.jpeg" class="img-fluid" alt="">
             </div>
-            <div class="col-md p-5">
+            <div class="col-md p-6">
                 <h2>Learn the Fundamentals</h2>
                 <p class="lead">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum sint tenetur in quaerat! Quis at corrupti voluptatem, cupiditate dolor ab harum! In cupiditate, accusantium a accusamus dicta quam quod nulla.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis maxime tempora reprehenderit delectus accusantium vero.
                 </p>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum assumenda nihil placeat odit quam dignissimos dolores, consequatur non quasi libero nostrum quisquam sed eos deserunt dolore repellat molestias officia maiores.
+                </p>
+                <a href="#" class="btn btn-light mt-3">
+                    <i class="bi bi-chevron-right"></i>
+                    Read More
+                </a>
             </div>
-     </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="learn" class="p-5 bg-dark text-light">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+           
+            <div class="col-md p-5">
+                <h2>Learn React</h2>
+                <p class="lead">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis maxime tempora reprehenderit delectus accusantium vero.
+                </p>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum assumenda nihil placeat odit quam dignissimos dolores, consequatur non quasi libero nostrum quisquam sed eos deserunt dolore repellat molestias officia maiores.
+                </p>
+                <a href="#" class="btn btn-light mt-3">
+                    <i class="bi bi-chevron-right"></i>
+                    Read More
+                </a>
+            </div>
+
+            <div class="col-md">
+                <img src="img/fundamentals.jpeg" class="img-fluid" alt="">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Question Accordion -->
+<section id="questions" class="p-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+        <div class="accordion accordion-flush" id="questions">
+            <!-- Item One -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button 
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#question-one"
+                    >
+                    Where exactly are you located?
+                    </button>
+                </h2>
+                <div 
+                    id="question-one"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#questions"
+                >
+                <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci optio quisquam magni autem nobis officiis, beatae natus hic repellat necessitatibus, laboriosam possimus, quam delectus alias quis explicabo consequatur non commodi sint in obcaecati sed maiores? Voluptate dicta facilis provident quaerat, saepe error hic aspernatur dolorum ullam, assumenda sequi necessitatibus exercitationem?
+                </div>
+                </div>
+            </div>
+
+            <!-- Item Two -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button 
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#question-two"
+                    >
+                    How much does it cost to attend?
+                    </button>
+                </h2>
+                <div 
+                    id="question-two"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#questions"
+                >
+                <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci optio quisquam magni autem nobis officiis, beatae natus hic repellat necessitatibus, laboriosam possimus, quam delectus alias quis explicabo consequatur non commodi sint in obcaecati sed maiores? Voluptate dicta facilis provident quaerat, saepe error hic aspernatur dolorum ullam, assumenda sequi necessitatibus exercitationem?
+                </div>
+                </div>
+            </div>
+              
+
+            <!-- Item Three -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button 
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#question-three"
+                    >
+                    What do I need to know?
+                    </button>
+                </h2>
+                <div 
+                    id="question-three"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#questions"
+                >
+                <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci optio quisquam magni autem nobis officiis, beatae natus hic repellat necessitatibus, laboriosam possimus, quam delectus alias quis explicabo consequatur non commodi sint in obcaecati sed maiores? Voluptate dicta facilis provident quaerat, saepe error hic aspernatur dolorum ullam, assumenda sequi necessitatibus exercitationem?
+                </div>
+                </div>
+            </div>
+                
+        </div>
     </div>
 
 </section>
